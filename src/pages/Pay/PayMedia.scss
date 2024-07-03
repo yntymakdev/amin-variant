@@ -1,0 +1,426 @@
+@media (max-width: 835px) {
+  #pay-products {
+    .pay-part {
+      gap: 90px;
+      .personal-data {
+        input {
+          width: 290px;
+        }
+      }
+      .pay {
+        p {
+          margin-top: 25px;
+        }
+        .plot {
+          width: 340px;
+          height: 110px;
+        }
+      }
+    }
+    .modal-installment {
+      top: 140px;
+      left: 12%;
+      width: 640px;
+      padding: 10px 0 30px 20px;
+      .close {
+        top: 20px;
+        right: 20px;
+        width: 20px;
+      }
+    }
+    #modalNumber {
+      left: 10%;
+      width: 670px;
+      padding: 30px 50px;
+      .modalNumber {
+        width: 570px;
+      }
+    }
+    .pay-price {
+      margin-left: 45px;
+    }
+  }
+}
+@media (max-width: 768px) {
+  #pay-products {
+    .pay-part {
+      .personal-data {
+        input {
+          width: 260px;
+        }
+      }
+      .pay {
+        .plot {
+          width: 300px;
+        }
+      }
+    }
+    .modal-installment {
+      top: 70px;
+      left: 10%;
+      width: 600px;
+    }
+    #modalNumber {
+      left: 10%;
+      width: 620px;
+      .modalNumber {
+        width: 530px;
+      }
+    }
+    .pay-price {
+      font-size: 21px;
+    }
+  }
+}
+@media (max-width: 429px) {
+  #pay-products {
+    .fon {
+      height: 11pc;
+    }
+    h1 {
+      padding-top: 50px;
+      font-size: 24px;
+    }
+    .pay-part {
+      flex-direction: column;
+      gap: 30px;
+      .personal-data {
+        h1 {
+          font-size: 18px;
+        }
+        input {
+          width: 360px;
+        }
+        p {
+          font-size: 12px;
+        }
+        .input-radios {
+          label {
+            font-size: 12px;
+            display: flex;
+            align-items: center;
+          }
+          .modalLocal {
+            .select-oblast {
+              select {
+                option {
+                  font-size: 12px;
+                }
+              }
+            }
+          }
+          .pickup {
+            margin-bottom: 20px;
+            h2 {
+              font-size: 17px;
+            }
+            p {
+              font-size: 11px;
+            }
+          }
+        }
+        .necessarily {
+          font-size: 13px;
+          img {
+            width: 15px;
+          }
+        }
+      }
+      .pay {
+        h1 {
+          font-size: 24px;
+        }
+        .input-radios {
+          label {
+            font-size: 12px;
+          }
+        }
+        .plot {
+          width: 100%;
+          height: 100px;
+        }
+        .agree {
+          margin-top: 10px;
+          font-size: 13px;
+        }
+      }
+    }
+    .pay-button {
+      margin-block: 80px;
+      gap: 20px;
+      button {
+        padding: 10px 30px;
+        font-size: 13px;
+      }
+      p {
+        width: 300px;
+        font-size: 11px;
+      }
+    }
+    .modal-installment {
+      top: 140px;
+      left: 2%;
+      width: 96%;
+      padding: 0 0 20px 15px;
+      .close {
+        top: 10px;
+        right: 10px;
+        width: 15px;
+      }
+      .variants {
+        margin-top: 20px;
+        div {
+          gap: 10px;
+          h2 {
+            font-size: 13px;
+            width: 20px;
+            height: 20px;
+          }
+          h1 {
+            font-size: 13px;
+          }
+        }
+        p {
+          margin-left: 40px;
+          font-size: 11px;
+        }
+        ul {
+          margin-left: 10px;
+          li {
+            gap: 7px;
+            margin-block: 2px;
+            font-size: 11px;
+            img {
+              width: 15px;
+            }
+          }
+        }
+      }
+    }
+    #modalNumber {
+      left: 2%;
+      top: 30%;
+      width: 100%;
+      padding: 20px 25px 20px 15px;
+      gap: 20px;
+      img {
+        width: 15px;
+      }
+      .modalNumber {
+        width: 100%;
+        padding: 15px;
+        .Banks {
+          gap: 20px;
+          img {
+            width: 50px;
+          }
+        }
+        .numberUser {
+          div {
+            width: 90px;
+            height: 36px;
+            gap: 4px;
+            img {
+              width: 17px;
+            }
+            font-size: 11px;
+          }
+        }
+        p {
+          font-size: 11px;
+        }
+        input {
+          padding: 5.1px 20px;
+          width: 400px;
+        }
+      }
+    }
+    .pay-price {
+      font-size: 15px;
+      margin-left: 20px;
+    }
+  }
+}
+@media (max-width: 375px) {
+  #pay-products {
+    .fon {
+      height: 10pc;
+    }
+    h1 {
+      font-size: 20px;
+    }
+    .modal-installment {
+      width: 96%;
+      padding: 0 0 15px 10px;
+      .variants {
+        div {
+          h2 {
+            font-size: 12px;
+          }
+          h1 {
+            font-size: 12px;
+          }
+        }
+        p {
+          margin-left: 30px;
+          font-size: 10px;
+        }
+        ul {
+          margin-left: 5px;
+          li {
+            font-size: 10px;
+            img {
+              width: 12px;
+            }
+          }
+        }
+      }
+    }
+    #modalNumber {
+      padding: 15px 20px 15px 10px;
+      gap: 15px;
+      .modalNumber {
+        padding: 10px;
+      }
+    }
+    .pay-price {
+      font-size: 14px;
+      margin-left: 20px;
+    }
+  }
+}
+@media (max-width: 320px) {
+  #pay-products {
+    h1 {
+      font-size: 18px;
+    }
+    .pay-part {
+      .personal-data {
+        h1 {
+          font-size: 16px;
+        }
+        p {
+          font-size: 11px;
+        }
+        .input-radios {
+          .modalLocal {
+            .select-oblast {
+              select {
+                option {
+                  font-size: 10px;
+                }
+              }
+            }
+          }
+          .pickup {
+            margin-bottom: 20px;
+            h2 {
+              font-size: 13px;
+            }
+            p {
+              font-size: 9px;
+            }
+          }
+        }
+        .necessarily {
+          font-size: 11px;
+          img {
+            width: 12px;
+          }
+        }
+      }
+      .pay {
+        h1 {
+          font-size: 18px;
+        }
+        .input-radios {
+          label {
+            font-size: 10px;
+          }
+        }
+        .agree {
+          font-size: 10px;
+        }
+      }
+    }
+    .pay-button {
+      margin-block: 80px;
+      gap: 20px;
+      button {
+        padding: 10px 30px;
+        font-size: 13px;
+      }
+      p {
+        width: 300px;
+        font-size: 11px;
+      }
+    }
+    .modal-installment {
+      padding: 0 0 15px 10px;
+      .variants {
+        margin-top: 10px;
+        div {
+          gap: 10px;
+          h2 {
+            font-size: 11px;
+            width: 15px;
+            height: 15px;
+          }
+          h1 {
+            font-size: 10px;
+          }
+        }
+        p {
+          margin-left: 25px;
+          margin-block: 1px;
+          font-size: 7px;
+        }
+        ul {
+          margin-left: 5px;
+          li {
+            gap: 5px;
+            font-size: 7px;
+            img {
+              width: 10px;
+            }
+          }
+        }
+        .close {
+          width: 10px;
+        }
+      }
+    }
+    #modalNumber {
+      padding: 10px 15px 10px 5px;
+      gap: 10px;
+      .modalNumber {
+        padding: 14px;
+        .Banks {
+          img {
+            width: 40px;
+          }
+        }
+        .numberUser {
+          div {
+            width: 55px;
+            height: 27px;
+            img {
+              width: 15px;
+            }
+            font-size: 9px;
+          }
+        }
+        p {
+          font-size: 9px;
+        }
+        input {
+          padding: 0.6px 10px;
+          width: 100%;
+        }
+      }
+    }
+    .pay-price {
+      font-size: 11px;
+    }
+  }
+}

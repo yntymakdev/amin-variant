@@ -1,0 +1,233 @@
+#powerful {
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  height: 35.714vw;
+  .dom {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 4.934vw;
+    background: #00000066;
+    .nav {
+      display: flex;
+      align-items: center;
+      justify-content: start;
+      width: 80%;
+      margin: 0 auto;
+      gap: 0.714vw;
+      img {
+        cursor: pointer;
+        z-index: 1;
+        width: 14px;
+        height: 12px;
+      }
+      .dot {
+        width: 4px;
+        height: 4px;
+        border-radius: 2px;
+        background: rgba(255, 255, 255, 0.2);
+      }
+      p {
+        color: rgb(132, 144, 164);
+        font-size: 14px;
+        font-weight: 400;
+      }
+    }
+  }
+  .bgMain {
+    position: absolute;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+  .container {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1vw;
+    padding: 11vw 0 15vw;
+    max-height: 600px;
+    h1 {
+      color: rgb(255, 255, 255);
+      font-size: 4vw;
+      font-weight: 400;
+      line-height: 4vw;
+      text-align: center;
+    }
+    p {
+      width: 70%;
+      color: rgb(255, 255, 255);
+      font-size: 1.9vw;
+      font-weight: 400;
+      text-align: center;
+    }
+  }
+}
+#inBlocks {
+  max-width: 1400px;
+  margin: 0 auto;
+  height: 19vw;
+  padding: 1.5vw 0;
+  background: rgb(21, 26, 34);
+  .container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .inBoxs {
+      position: absolute;
+      top: -7vw;
+      background: rgb(28, 35, 46);
+      width: 80%;
+      height: 15vw;
+      padding: 1.5vw 6vw;
+      h3 {
+        color: rgb(255, 255, 255);
+        font-size: 1.6vw;
+        font-weight: 400;
+        margin-bottom: 0.5vw;
+      }
+      .robot {
+        position: absolute;
+        right: 20px;
+        top: -5vw;
+        width: 30%;
+      }
+      .boxs {
+        position: absolute;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        width: 70%;
+        .left {
+          display: flex;
+          padding-right: 1vw;
+          width: 50%;
+          .txt {
+            display: flex;
+            gap: 1.3vw;
+            flex-direction: column;
+            width: 100%;
+            .star {
+              display: flex;
+              width: 1vw;
+            }
+            p {
+              width: 100%;
+              color: rgb(195, 206, 225);
+              font-size: 0.9vw;
+              font-weight: 400;
+              line-height: 1.2vw;
+              text-align: left;
+            }
+          }
+        }
+        .line {
+          border-left: 1px solid rgb(63, 76, 95);
+          border-right: 1px solid rgb(63, 76, 95);
+        }
+        .box {
+          width: 50%;
+          display: flex;
+          padding: 0 2.6vw;
+          .txt {
+            display: flex;
+            gap: 1.3vw;
+            flex-direction: column;
+            width: 100%;
+            .star {
+              display: flex;
+              width: 1vw;
+            }
+            p {
+              width: 100%;
+              color: rgb(195, 206, 225);
+              font-size: 0.9vw;
+              font-weight: 400;
+              line-height: 1.2vw;
+              text-align: left;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+#listinProducts {
+  background: #242424;
+  max-width: 1400px;
+  margin: 0 auto;
+  position: relative;
+  #powerful_bg {
+    position: absolute;
+    z-index: 1;
+    inset: 0;
+    background: rgb(21, 26, 34);
+    width: 100%;
+    height: 10vw;
+  }
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+    gap: 2.083vw;
+    .listinProducts {
+      width: 100%;
+    }
+  }
+}
+#newss {
+  padding: 3.571vw 0;
+  background-color: #242424;
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    .news {
+      display: flex;
+      flex-direction: column;
+      gap: 5vw;
+      .newsBlock {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 3vw;
+        .newsImg {
+          width: 40vw;
+          img {
+            width: 100%;
+            object-fit: cover;
+          }
+        }
+        .newsBox {
+          width: 50vw;
+          h3 {
+            color: rgb(255, 255, 255);
+            font-size: 1.9vw;
+            font-weight: 400;
+          }
+          p {
+            padding: 0.2vw 0;
+            color: rgb(132, 144, 164);
+            font-size: 1vw;
+            font-weight: 400;
+            line-height: 1.7vw;
+            span {
+              color: #49dcff;
+              cursor: pointer;
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,122 @@
+#listinBlock {
+  display: grid;
+  grid-template-columns: repeat(4, 19.2vw);
+  gap: 7vw 2vw;
+  .listinBox {
+    z-index: 10;
+    background: rgb(28, 35, 46);
+    position: relative;
+    padding: 1.77vw;
+    .PC {
+      width: 76%;
+      height: 17vw;
+      object-fit: cover;
+      position: absolute;
+      left: 15%;
+      top: -3vw;
+    }
+    .listinTop {
+      padding: 14vw 0 2vw 0;
+      display: flex;
+      flex-direction: column;
+      gap: 1.5vw;
+      border-bottom: 1px solid #56617c80;
+      h3 {
+        color: rgb(255, 255, 255);
+        font-size: 1.2vw;
+        font-weight: 400;
+        line-height: 1.7vw;
+      }
+      .price {
+        display: flex;
+        align-items: center;
+        gap: 0.4vw;
+        p {
+          color: rgb(73, 220, 255);
+          font-size: 1.5vw;
+          font-weight: 500;
+        }
+        .som {
+          width: 1.5vw;
+          height: auto;
+        }
+        .info {
+          width: 1.4vw;
+          height: auto;
+          opacity: 0.7;
+          transform: 1s;
+          &:hover {
+            opacity: 1;
+          }
+        }
+      }
+      .btns {
+        display: flex;
+        align-items: center;
+        gap: 0.9vw;
+        button {
+          width: 6.7vw;
+          height: 3vw;
+          background-color: rgb(44, 56, 73);
+          color: rgb(73, 220, 255);
+          font-size: 0.69vw;
+          font-weight: 500;
+          border-radius: 4px;
+          text-transform: uppercase;
+          &:active {
+            background-color: rgb(73, 220, 255);
+            color: rgb(44, 56, 73);
+          }
+        }
+        .btnSetting {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 3.5vw;
+          height: 3vw;
+          border-radius: 4px;
+          font-size: 1.3vw;
+          color: rgb(73, 220, 255);
+          background: rgb(44, 56, 73);
+          &:active {
+            background: rgb(73, 220, 255);
+            color: rgb(44, 56, 73);
+          }
+        }
+      }
+      p {
+        color: rgb(132, 144, 164);
+        font-size: 0.74vw;
+        font-weight: 400;
+        line-height: 1.2vw;
+      }
+    }
+    .listinBottom {
+      padding: 1.5vw 0;
+      display: flex;
+      flex-direction: column;
+      gap: 1.2vw;
+      .card {
+        display: flex;
+        align-items: center;
+        gap: 1.2vw;
+        img {
+          width: 1.7vw;
+          height: auto;
+        }
+        p {
+          color: rgb(132, 144, 164);
+          font-size: 0.7vw;
+          font-weight: 400;
+          line-height: 1.2vw;
+        }
+        h3 {
+          color: rgb(195, 206, 225);
+          font-size: 0.7vw;
+          font-weight: 400;
+          line-height: 1.5vw;
+        }
+      }
+    }
+  }
+}

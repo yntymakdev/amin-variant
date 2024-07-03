@@ -1,0 +1,875 @@
+@media (min-width: 1400px) {
+  // page_gaming
+  body {
+    #gaming {
+      .doms {
+        height: 62px;
+        .nav {
+          width: 80%;
+          gap: 10px;
+          img {
+            cursor: pointer;
+            z-index: 1;
+            width: 14px;
+            height: 12px;
+          }
+          .dot {
+            width: 4px;
+            height: 4px;
+            border-radius: 2px;
+          }
+          p {
+            margin-top: 10px;
+            font-size: 14px;
+            font-weight: 400;
+          }
+        }
+      }
+      .container {
+        padding: 120px 0;
+        gap: 15px;
+        h1 {
+          font-size: 50px;
+          line-height: 71.68px;
+        }
+        P {
+          width: 60%;
+          font-size: 22px;
+          line-height: 32px;
+        }
+      }
+    }
+    #inBlock {
+      height: 300px;
+      .container {
+        .inBox {
+          height: 233px;
+          top: -110px;
+          padding: 10px 50px;
+          h3 {
+            margin-left: 30px;
+            font-size: 24px;
+          }
+          .robot {
+            max-width: 367.73px;
+            max-height: 382.05px;
+            top: -65px;
+            right: 4px;
+          }
+          .boxs {
+            width: 70%;
+            .left,
+            .box {
+              width: 60%;
+              padding: 0 35px;
+              .txt {
+                gap: 20px;
+                .star {
+                  width: 16px;
+                  height: 13px;
+                }
+                p {
+                  font-size: 13px;
+                  line-height: 19px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    #listinProduct {
+      #gaming_bg {
+        height: 140px;
+      }
+      .container {
+        .listinProduct {
+          #listinBlock {
+            grid-template-columns: repeat(4, 24%);
+            gap: 2vw 0.5vw;
+            .listinBox {
+              padding: 25px;
+              .PC {
+                height: 220px;
+                top: -38px;
+              }
+              .listinTop {
+                gap: 20px;
+                padding: 170px 0 30px 0;
+                h3 {
+                  font-size: 20px;
+                  line-height: 24px;
+                }
+                .price {
+                  gap: 5px;
+                  width: 100%;
+                  P {
+                    margin-top: 3px;
+                    font-size: 18px;
+                  }
+                  .som {
+                    width: 24px;
+                    height: 24px;
+                    object-fit: cover;
+                  }
+                  .info {
+                    margin-top: 0.2px;
+
+                    width: 21px;
+                    height: 20px;
+                    object-fit: cover;
+                  }
+                }
+                .btns {
+                  gap: 10px;
+                  button {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 93px;
+                    height: 45px;
+                    font-size: 10px;
+                  }
+                  .btnSetting {
+                    width: 47px;
+                    height: 45px;
+                    font-size: 15px;
+                  }
+                }
+                p {
+                  line-height: 15.96px;
+                  font-size: 10px;
+                }
+              }
+            }
+            .listinBottom {
+              padding: 15px 0;
+              gap: 15px;
+              .card {
+                gap: 15px;
+                img {
+                  width: 24px;
+                  height: 24px;
+                  object-fit: cover;
+                }
+                p {
+                  font-size: 9px;
+                  line-height: 15.96px;
+                }
+                h3 {
+                  font-size: 11px;
+                  line-height: 16px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    #news {
+      width: 1400px;
+      margin: 0 auto;
+      .container {
+        width: 80%;
+        margin: 0 auto;
+        .news {
+          gap: 35px;
+          .newsBlock {
+            gap: 20px;
+            .newsImg {
+              width: 50vw;
+              img {
+                width: 568px;
+                height: 360.72px;
+              }
+            }
+            .newsBox {
+              h3 {
+                font-size: 24px;
+              }
+              p {
+                font-size: 16px;
+                line-height: 24px;
+              }
+              .news_p {
+                font-size: 16px;
+                line-height: 24px;
+              }
+            }
+          }
+        }
+      }
+    }
+    // page_powerful
+    #powerful {
+      height: 600px;
+      .dom {
+        height: 62px;
+        .nav {
+          width: 80%;
+          gap: 10px;
+          img {
+            cursor: pointer;
+            z-index: 1;
+            width: 14px;
+            height: 12px;
+          }
+          .dot {
+            width: 4px;
+            height: 4px;
+            border-radius: 2px;
+          }
+          p {
+            font-size: 14px;
+            font-weight: 400;
+          }
+        }
+      }
+      .bgMain {
+        object-fit: center/cover;
+      }
+      .container {
+        padding: 170px 0;
+        gap: 15px;
+        h1 {
+          font-size: 60px;
+          line-height: 71.68px;
+        }
+        P {
+          width: 67%;
+          font-size: 25px;
+          line-height: 35px;
+        }
+      }
+    }
+    #inBlocks {
+      height: 300px;
+      .container {
+        .inBoxs {
+          height: 233px;
+          top: -110px;
+          padding: 10px 50px;
+          h3 {
+            margin-left: 30px;
+            font-size: 24px;
+          }
+          .robot {
+            max-width: 367.73px;
+            max-height: 382.05px;
+            top: -65px;
+            right: 4px;
+          }
+          .boxs {
+            width: 70%;
+            .left,
+            .box {
+              width: 60%;
+              padding: 0 35px;
+              .txt {
+                gap: 20px;
+                .star {
+                  width: 16px;
+                  height: 13px;
+                }
+                p {
+                  font-size: 12px;
+                  line-height: 19px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    #listinProducts {
+      #powerful_bg {
+        height: 140px;
+      }
+      .container {
+        .listinProducts {
+          #listinBlocks {
+            grid-template-columns: repeat(4, 24%);
+            gap: 2vw 0.5vw;
+            .listinBoxs {
+              padding: 25px;
+              .PC {
+                height: 220px;
+                top: -38px;
+              }
+              .listinTops {
+                gap: 20px;
+                padding: 170px 0 30px 0;
+                h3 {
+                  font-size: 20px;
+                  line-height: 24px;
+                }
+                .price {
+                  gap: 5px;
+                  width: 100%;
+                  P {
+                    margin-top: 3px;
+                    font-size: 18px;
+                  }
+                  .som {
+                    width: 24px;
+                    height: 24px;
+                    object-fit: cover;
+                  }
+                  .info {
+                    margin-top: 0.2px;
+                    width: 21px;
+                    height: 20px;
+                    object-fit: cover;
+                  }
+                }
+                .btns {
+                  gap: 10px;
+                  button {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 93px;
+                    height: 45px;
+                    font-size: 10px;
+                  }
+                  .btnSetting {
+                    width: 47px;
+                    height: 45px;
+                    font-size: 15px;
+                  }
+                }
+                p {
+                  line-height: 15.96px;
+                  font-size: 10px;
+                }
+              }
+            }
+            .listinBottoms {
+              padding: 15px 0;
+              gap: 15px;
+              .card {
+                gap: 15px;
+                img {
+                  width: 24px;
+                  height: 24px;
+                  object-fit: cover;
+                }
+                p {
+                  font-size: 9px;
+                  line-height: 15.96px;
+                }
+                h3 {
+                  font-size: 11px;
+                  line-height: 16px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    #newss {
+      width: 1400px;
+      margin: 0 auto;
+      .container {
+        width: 80%;
+        margin: 0 auto;
+        .news {
+          gap: 2vw;
+          .newsBlock {
+            gap: 20px;
+            .newsImg {
+              width: 50vw;
+              img {
+                width: 568px;
+                height: 360.72px;
+              }
+            }
+            .newsBox {
+              h3 {
+                font-size: 24px;
+              }
+              p {
+                font-size: 16px;
+                line-height: 24px;
+              }
+              .news_p {
+                font-size: 16px;
+                line-height: 24px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  // page_gaming
+  #gaming {
+    width: 100%;
+    height: 35vw;
+    margin: 0 auto;
+    .doms {
+      .nav {
+        p {
+          font-size: 1.7vw;
+        }
+      }
+    }
+    .container {
+      gap: 10px;
+      padding: 5vw 0;
+      max-height: 25vw;
+      h1 {
+        font-size: 3.5vw;
+      }
+      p {
+        width: 90%;
+        line-height: 3vw;
+        font-size: 2vw;
+      }
+    }
+  }
+  #inBlock {
+    height: 22vw;
+    padding: 5vw 0;
+  }
+  #listinProduct {
+    #gaming_bg {
+      height: 10vw;
+    }
+  }
+  #listinBlock {
+    display: grid;
+    grid-template-columns: repeat(4, 18vw);
+    gap: 12vw 2vw;
+    .listinBox {
+      .PC {
+        width: 70%;
+        height: 15vw;
+        top: -5vw;
+      }
+      .listinTop {
+        padding: 12vw 0 1vw 0;
+        gap: 1.8vw;
+        h3 {
+          font-size: clamp(0.2rem, 2.5vw, 0.6rem);
+        }
+        .price {
+          p {
+            font-size: clamp(0.2rem, 2.5vw, 0.8rem);
+          }
+          .som {
+            width: 2.5vw;
+          }
+          .info {
+            width: 2.5vw;
+          }
+        }
+        .btns {
+          gap: 0.9vw;
+          button {
+            padding: 0 0.6vw;
+            width: 5vw;
+            height: 3.5vw;
+            font-size: clamp(0.2rem, 2vw, 0.3rem);
+          }
+          .btnSetting {
+            width: 7vw;
+            height: 3.5vw;
+          }
+        }
+        p {
+          font-size: clamp(0.2rem, 1.5vw, 0.4rem);
+          line-height: 1.5vw;
+        }
+      }
+      .listinBottom {
+        padding: 2vw 0;
+        gap: 2vw;
+        .card {
+          gap: 2vw;
+          img {
+            width: 2.5vw;
+            height: auto;
+          }
+          p {
+            font-size: clamp(0.2rem, 1.5vw, 0.5rem);
+            line-height: 1.2vw;
+          }
+          h3 {
+            padding: 0.7vw 0;
+            font-size: clamp(0.2rem, 1.5vw, 0.4rem);
+            line-height: 1.5vw;
+          }
+        }
+      }
+    }
+  }
+  #news {
+    .container {
+      .news {
+        .newsBlock {
+          // flex-direction: column;
+          .newsBox {
+            h3 {
+              font-size: clamp(0.5rem, 2.5vw, 1rem);
+            }
+            p {
+              font-size: clamp(0.2rem, 2.5vw, 0.6rem);
+            }
+            .news_p {
+              font-size: clamp(0.2rem, 2.5vw, 0.6rem);
+            }
+          }
+        }
+      }
+    }
+  }
+  // page_powerful
+  #powerful {
+    width: 100%;
+    height: 35vw;
+    margin: 0 auto;
+    .dom {
+      .nav {
+        p {
+          font-size: 1.7vw;
+        }
+      }
+    }
+    .container {
+      gap: 10px;
+      padding: 5vw 0;
+      max-height: 25vw;
+      h1 {
+        font-size: 3.5vw;
+      }
+      p {
+        width: 90%;
+        line-height: 3vw;
+        font-size: 2vw;
+      }
+    }
+  }
+  #inBlocks {
+    height: 22vw;
+    padding: 5vw 0;
+  }
+  #listinProducts {
+    #powerful_bg {
+      height: 10vw;
+    }
+  }
+  #listinBlocks {
+    display: grid;
+    grid-template-columns: repeat(4, 18vw);
+    gap: 12vw 2vw;
+    .listinBoxs {
+      .PC {
+        width: 70%;
+        height: 15vw;
+        top: -5vw;
+      }
+      .listinTops {
+        padding: 12vw 0 1vw 0;
+        gap: 1.8vw;
+        h3 {
+          font-size: clamp(0.2rem, 2.5vw, 0.5rem);
+        }
+        .price {
+          p {
+            font-size: clamp(0.2rem, 2.5vw, 0.8rem);
+          }
+          .som {
+            width: 2.5vw;
+          }
+          .info {
+            width: 2.5vw;
+          }
+        }
+        .btns {
+          gap: 0.9vw;
+          button {
+            padding: 0 0.6vw;
+            width: 6vw;
+            height: 3.5vw;
+            font-size: clamp(0.2rem, 2vw, 0.3rem);
+          }
+          .btnSetting {
+            width: 7vw;
+            height: 3.5vw;
+          }
+        }
+        p {
+          font-size: clamp(0.2rem, 1.5vw, 0.4rem);
+          line-height: 1.5vw;
+        }
+      }
+      .listinBottoms {
+        padding: 2vw 0;
+        gap: 2vw;
+        .card {
+          gap: 2vw;
+          img {
+            width: 3vw;
+            height: auto;
+          }
+          p {
+            font-size: clamp(0.2rem, 1.5vw, 0.5rem);
+
+            line-height: 1.2vw;
+          }
+          h3 {
+            padding: 0.7vw 0;
+            font-size: clamp(0.2rem, 1.5vw, 0.3rem);
+            line-height: 1.5vw;
+          }
+        }
+      }
+    }
+  }
+  #newss {
+    .container {
+      .news {
+        .newsBlock {
+          .newsBox {
+            h3 {
+              font-size: clamp(0.5rem, 2.5vw, 0.9rem);
+            }
+            p {
+              font-size: clamp(0.2rem, 2.5vw, 0.6rem);
+            }
+            .news_p {
+              font-size: clamp(0.2rem, 2.5vw, 0.6rem);
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  // page_gaming
+  #gaming {
+    width: 100%;
+    height: 45vw;
+    margin: 0 auto;
+    .doms {
+      display: none;
+    }
+    .container {
+      gap: 0.714vw;
+      padding: 5vw 0;
+      max-height: 200px;
+      h1 {
+        font-size: clamp(1rem, 2.5vw, 4rem);
+      }
+      p {
+        margin-top: 1vw;
+        width: 90%;
+        line-height: clamp(0.9rem, 2vw, 0.7rem);
+        font-size: clamp(0.7rem, 2vw, 4rem);
+      }
+    }
+  }
+  #inBlock {
+    display: none;
+  }
+  #listinProduct {
+    #gaming_bg {
+      display: none;
+    }
+  }
+  #listinBlock {
+    grid-template-columns: repeat(1, 80vw);
+    gap: 1.1vw;
+    .listinBox {
+      margin-top: 20vw;
+      padding: 1.77vw;
+      .PC {
+        width: 70%;
+        height: 25%;
+        left: 15%;
+        top: -12vw;
+      }
+      .listinTop {
+        padding: 50vw 0 2vw 6vw;
+        gap: 3vw;
+        h3 {
+          font-size: clamp(1rem, 2.5vw, 4rem);
+        }
+        .price {
+          gap: 0.4vw;
+          p {
+            font-size: clamp(1.3rem, 2.5vw, 2rem);
+          }
+          .som {
+            width: 7vw;
+            height: auto;
+          }
+          .info {
+            width: 7vw;
+            height: auto;
+          }
+        }
+        .btns {
+          gap: 2vw;
+          button {
+            width: 22vw;
+            height: 8vw;
+            font-size: clamp(0.7rem, 2.5vw, 0.5rem);
+          }
+          .btnSetting {
+            width: 9vw;
+            height: 8vw;
+            font-size: 3vw;
+          }
+        }
+        p {
+          font-size: clamp(0.7rem, 2.5vw, 0.5rem);
+
+          line-height: clamp(1rem, 2.5vw, 1rem);
+        }
+      }
+      .listinBottom {
+        padding: 1.5vw 0 0 6vw;
+        gap: 1.2vw;
+        .card {
+          gap: 3vw;
+          img {
+            width: 8vw;
+            height: auto;
+          }
+          p {
+            padding: 3vw 0;
+            font-size: clamp(0.7rem, 2.5vw, 0.5rem);
+            line-height: 1.2vw;
+          }
+          h3 {
+            font-size: clamp(0.7rem, 2.5vw, 0.4rem);
+            line-height: 1.5vw;
+          }
+        }
+      }
+    }
+  }
+  #news {
+    display: none;
+  }
+  // page_powerful
+  #powerful {
+    width: 100%;
+    height: 45vw;
+    margin: 0 auto;
+    .dom {
+      display: none;
+    }
+    .bgMain {
+      width: 100%;
+      height: 100%;
+      object-fit: center/cover;
+    }
+    .container {
+      gap: 0.8vw;
+      padding: 3vw 0;
+      max-height: 160px;
+      h1 {
+        font-size: clamp(1rem, 2.5vw, 4rem);
+      }
+      p {
+        margin-top: 1vw;
+        width: 90%;
+        line-height: clamp(0.9rem, 2vw, 0.7rem);
+        font-size: clamp(0.7rem, 2vw, 4rem);
+      }
+    }
+  }
+  #inBlocks {
+    display: none;
+  }
+  #listinProducts {
+    #powerful_bg {
+      display: none;
+    }
+  }
+  #listinBlocks {
+    grid-template-columns: repeat(1, 80vw);
+    gap: 1.1vw;
+    .listinBoxs {
+      margin-top: 20vw;
+      padding: 1.77vw;
+      .PC {
+        width: 70%;
+        height: 25%;
+        left: 15%;
+        top: -12vw;
+      }
+      .listinTops {
+        padding: 55vw 0 2vw 6vw;
+        gap: 3vw;
+        h3 {
+          font-size: clamp(1rem, 2.5vw, 4rem);
+        }
+        .price {
+          gap: 0.4vw;
+          p {
+            font-size: clamp(1.3rem, 2.5vw, 2rem);
+          }
+          .som {
+            width: 7vw;
+            height: auto;
+          }
+          .info {
+            width: 7vw;
+            height: auto;
+          }
+        }
+        .btns {
+          gap: 2vw;
+          button {
+            width: 22vw;
+            height: 8vw;
+            font-size: clamp(0.7rem, 2.5vw, 0.5rem);
+          }
+          .btnSetting {
+            width: 9vw;
+            height: 8vw;
+            font-size: 3vw;
+          }
+        }
+        p {
+          font-size: clamp(0.7rem, 2.5vw, 0.5rem);
+
+          line-height: clamp(1rem, 2.5vw, 1rem);
+        }
+      }
+      .listinBottoms {
+        padding: 1.5vw 0 0 6vw;
+        gap: 1.2vw;
+        .card {
+          gap: 3vw;
+          img {
+            width: 8vw;
+            height: auto;
+          }
+          p {
+            padding: 4vw 0;
+            font-size: clamp(0.7rem, 2.5vw, 0.5rem);
+            line-height: 1.2vw;
+          }
+          h3 {
+            font-size: clamp(0.7rem, 2.5vw, 0.4rem);
+            line-height: 1.5vw;
+          }
+        }
+      }
+    }
+  }
+  #newss {
+    display: none;
+  }
+}

@@ -1,0 +1,35 @@
+.oneBlock li {
+	font-size: 12px;
+	cursor: pointer;
+	transition: 0.2s;
+}
+.oneBlock li:hover {
+	border-bottom: 1px solid white;
+	transform: scale(1.04);
+}
+@media (max-width: 687px) {
+	.oneBlock li {
+		font-size: 10px;
+	}
+	.footerMain {
+		font-size: 13px;
+	}
+}
+@media (max-width: 607px) {
+	.MainFooterOne {
+		flex-direction: column-reverse;
+	}
+}
+@media (max-width: 340px) {
+	.MainFooterOne {
+		flex-direction: column-reverse;
+	}
+	.oneBlock li {
+		font-weight: 300;
+		font-size: 9px;
+	}
+}
+.bottomLine {
+	width: 100%;
+	border-bottom: 1px dashed #56617c;
+}

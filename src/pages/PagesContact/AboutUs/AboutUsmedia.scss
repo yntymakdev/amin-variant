@@ -1,0 +1,241 @@
+@media (max-width: 1280px) {
+  .img_sert1 {
+    width: 700px;
+    height: 510px;
+    background-size: contain;
+  }
+  textarea {
+    min-height: 100px;
+    width: 490px;
+  }
+  .btn-review {
+    margin-left: -210px;
+  }
+  .btn_review {
+    margin-left: 35%;
+  }
+  .text_infor {
+    // font-size: 20px;
+  }
+  .carta_img {
+  }
+  .iframe {
+    width: 600px;
+    height: 400px;
+  }
+  .carta_img iframe {
+    width: 450px;
+    height: 190px;
+  }
+  .text_infor {
+    padding-inline: 0px;
+  }
+}
+
+@media (max-width: 885px) {
+  .btn_review {
+    margin-left: 33%;
+  }
+  .star_icon {
+    font-size: 10px;
+    gap: 15px;
+  }
+  .star {
+    font-size: 35px;
+  }
+  textarea {
+    min-height: 80px;
+    width: 430px;
+  }
+  .img_sert1 {
+    width: 520px;
+    height: 400px;
+    background-size: contain;
+  }
+  // textarea {
+  //   width: 350px;
+  //   height: 100px;
+  // }
+  .text_amin {
+    font-size: 45px;
+  }
+  .imm {
+    gap: 30px;
+  }
+  .im {
+    width: 400px;
+    height: 150px;
+  }
+  .im1 {
+    width: 400px;
+    height: 150px;
+  }
+  .modal {
+    // padding: 0 220px;
+  }
+}
+
+@media (max-width: 970px) {
+  .img_sert1 {
+    width: 520px;
+    height: 400px;
+    background-size: contain;
+  }
+  .btn-review {
+    margin-left: -260px;
+  }
+  .btn_review {
+    width: 150px;
+    height: 40px;
+    font-size: 10px;
+    margin-left: 35%;
+  }
+}
+
+@media (max-width: 690px) {
+  .box_clients {
+    margin-top: -40px;
+    padding: -30px;
+  }
+  .box-img-tex {
+    // height: auto;
+    // width: 100%;
+    object-fit: contain;
+    width: 300px;
+    height: 400px;
+
+    // min-height: 200px;
+    // object-fit: cover;
+    // background-size: contain;
+  }
+
+  .modal {
+    // margin-left: 100px;
+  }
+
+  .box-text2 {
+    padding-inline: 0px;
+  }
+  .box-text-one {
+    margin: 0 auto;
+
+    font-size: 20px;
+  }
+  .box-text-two {
+    margin: 0 auto;
+    font-size: 20px;
+  }
+  .box-text2 {
+    // width: 300px;
+  }
+  .img_sert1 {
+    width: 300px;
+  }
+  .dropdown {
+    display: block;
+  }
+  .contain {
+    display: none;
+  }
+}
+@media (max-width: 392px) {
+  .text_contacts h1 {
+    line-height: 40px;
+    font-size: 30px;
+  }
+
+  .text_infor {
+    font-size: 15px;
+    h1 {
+      font-size: 25px;
+    }
+  }
+  .text_contacts {
+  }
+  .bishkek {
+    margin-right: 30px;
+  }
+  .nom h4 {
+    margin-right: 40px;
+    font-size: 15px;
+  }
+
+  .carta_img iframe {
+    width: 350px;
+    height: 190px;
+  }
+  .carta_ofic {
+    display: block;
+  }
+  .box-text-one {
+    width: 300px;
+    margin: 0 auto;
+  }
+  .box-text-two {
+    margin: 0 auto;
+
+    width: 300px;
+  }
+  .box-text2 {
+    padding-inline: 0px;
+  }
+  .box_clients {
+    margin-top: -40px;
+    padding: 10px;
+  }
+  .img_sert1 {
+    width: 320px;
+  }
+  .imm {
+  }
+  .im1 {
+    width: 440px;
+  }
+  .text_amin {
+    h1 {
+      margin-top: 10px;
+      font-size: 35px;
+      line-height: 43.68px;
+    }
+  }
+  .dropdown {
+    align-items: center;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 361px) {
+  .box-text {
+    font-size: 35px;
+  }
+  .box-text-one {
+    font-size: 25px;
+    line-height: 40px;
+  }
+  .box-text-two {
+    margin: 0 auto;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 1px;
+
+    width: 300px;
+  }
+  .img_sert1 {
+    width: 230px;
+  }
+  .im {
+    width: 240px;
+    height: 200px;
+  }
+  .im1 {
+    width: 460px;
+    height: 200px;
+  }
+
+  .text_amin {
+    h1 {
+      font-size: 29px;
+      line-height: 41.68px;
+    }
+  }
+}

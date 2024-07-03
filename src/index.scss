@@ -1,0 +1,139 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "./GlobalStyle/media.scss";
+@import "./GlobalStyle/global.scss";
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  color-scheme: dark;
+}
+.noselect {
+  user-select: none;
+}
+
+button,
+label,
+hr {
+  border: 0;
+  outline: 0;
+  background: 0;
+  cursor: pointer !important;
+}
+
+input,
+select,
+textarea {
+  border: 0;
+  outline: 0;
+  background: 0;
+}
+
+a.link {
+  margin-top: 30px;
+  padding: 16px 24px;
+  border-radius: 20px;
+  gap: 10px;
+  background-color: #252f40;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #ffffff;
+}
+a {
+  cursor: pointer;
+  transition: 0.2s;
+}
+a:hover {
+  border-bottom: 1px solid white;
+  transform: scale(1.04);
+}
+
+a,
+li,
+ul {
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  &::-webkit-scrollbar {
+    width: 0;
+  }
+}
+
+.wrapper {
+  position: relative;
+  overflow-x: hidden;
+  min-height: 100vh;
+}
+html {
+  scroll-behavior: smooth;
+  height: 100%;
+}
+
+.swipers {
+  height: 540px;
+  display: none !important;
+  @media (max-width: 440px) {
+    display: block !important;
+  }
+}
+.container {
+  width: 1400px;
+  margin: 0 auto;
+}
+
+.slick-arrow {
+  display: none !important;
+}
+@media (max-width: 1200px) {
+  .container {
+    width: 95%;
+  }
+}
+
+@media (max-width: 1100px) {
+  .container {
+    width: 95%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .container {
+    width: 95%;
+  }
+}
+
+@media (max-width: 940px) {
+  .container {
+    width: 95%;
+  }
+}
+@media (max-width: 940px) {
+  .container {
+    width: 95%;
+  }
+}
+
+@media (max-width: 740px) {
+  .container {
+    width: 95%;
+  }
+}
+
+@mixin center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.center {
+  @include center();
+}
